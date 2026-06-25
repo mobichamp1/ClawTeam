@@ -10,7 +10,7 @@ CLAWTEAM_HOME="${CLAWTEAM_HOME:-$HOME/.clawteam}"
 VENV_PATH="${CLAWTEAM_HOME}/.venv"
 BIN_DIR="${HOME}/.local/bin"
 PYTHON_BIN="${PYTHON_BIN:-}"
-SKILLS_BASE="${CLAWTEAM_SKILLS_BASE:-https://raw.githubusercontent.com/HKUDS/ClawTeam/main/skills/clawteam}"
+SKILLS_BASE="${CLAWTEAM_SKILLS_BASE:-https://raw.githubusercontent.com/mobichamp1/ClawTeam/main/skills/clawteam}"
 SKILL_SLUG="clawteam"
 SKILL_FILES=(
   "SKILL.md:SKILL.md"

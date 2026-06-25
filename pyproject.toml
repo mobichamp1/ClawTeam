@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [
-    {name = "HKUDS", email = "jiabintang77@gmail.com"}
+    {name = "mobichamp1", email = "niek@papercup.dev"}
 ]
 keywords = ["ai", "agent", "multi-agent", "team", "coordination", "cli", "swarm", "harness"]
 classifiers = [
@@ -44,9 +44,9 @@ clawteam = "clawteam.cli.commands:app"
 clawteam-mcp = "clawteam.mcp.server:main"
 
 [project.urls]
-Homepage = "https://github.com/HKUDS/ClawTeam"
-Repository = "https://github.com/HKUDS/ClawTeam"
-Issues = "https://github.com/HKUDS/ClawTeam/issues"
+Homepage = "https://github.com/mobichamp1/ClawTeam"
+Repository = "https://github.com/mobichamp1/ClawTeam"
+Issues = "https://github.com/mobichamp1/ClawTeam/issues"
 
 [build-system]
 requires = ["hatchling"]

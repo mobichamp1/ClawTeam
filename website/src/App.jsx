@@ -53,7 +53,7 @@ const steps = [
   { num: "03", title: "Spawn agents", body: "Run any terminal-native client from the same surface.", code: "clawteam spawn tmux claude-code --team my-team --agent-name builder\nclawteam spawn tmux codex --team my-team --agent-name reviewer" }
 ];
 const docs = [
-  { title: "Quick Start", body: "Install to first running swarm.", href: "https://github.com/HKUDS/ClawTeam#-quick-start" },
+  { title: "Quick Start", body: "Install to first running swarm.", href: "https://github.com/mobichamp1/ClawTeam#-quick-start" },
   { title: "Skill Guide", body: "Agent-facing operating guide.", href: "skills/clawteam/SKILL.md" },
   { title: "CLI Reference", body: "Commands, flags, and runtime details.", href: "skills/clawteam/references/cli-reference.md" },
   { title: "Workflows", body: "Practical patterns for real teams.", href: "skills/clawteam/references/workflows.md" }
@@ -198,7 +198,7 @@ function App() {
         <div className="shell header-inner">
           <a className="logo" href="#top"><img src={logo} alt="ClawTeam"/><strong>ClawTeam</strong></a>
           <nav className="nav"><a href="#features">Features</a><a href="#workflow">How it works</a><a href="#docs">Docs</a></nav>
-          <a className="btn-primary" href="https://github.com/HKUDS/ClawTeam" target="_blank" rel="noreferrer">GitHub</a>
+          <a className="btn-primary" href="https://github.com/mobichamp1/ClawTeam" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </header>
       <main>
